@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/2449600/pexels-photo-2449600.png?cs=srgb&dl=pexels-rozegold-2449600.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(23, 31, 27);
+    padding: 20px;
+    text-align: center;
+}
+nav ul li{
+   padding-right: 252px;
+}
+ul li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+
+   text-align: center;
+   background-color:  rgb(23, 31, 27);
+   color: white;
+   font-weight: bold;
+   bottom: 0;
+   margin-top: 220px;
+   padding-bottom: 1px;
+   text-align: center;
+   padding-top: 0.1px;
+
+   
+  
+}

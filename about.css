@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/592/652/original/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li{
+   padding-right: 252px;
+}
+ul li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+   text-align: center;
+   background-color: aliceblue;
+   color: black;
+   font-weight: bold;
+   bottom: 0;
+   padding-bottom: 2px;
+   padding-top: 2px;
+   
+  
+}

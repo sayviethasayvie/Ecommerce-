@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqUrULIwxLXzy4lScKgW7tb0pB6HCCDXIEOXaV76z838KaGe3Bo8Thl22O31GYCfEdnQQ&usqp=CAU");
+    overflow-x: hidden;
+}
+  header{
+      background-color: black;
+      color: aliceblue;
+      padding: 16px 0;
+      text-align: center;
+     
+  }
+  ul{
+      list-style: none;
+     
+  }
+  ul li{
+      display: inline;
+      margin-right: 20px;
+  }
+  ul li a{
+      text-decoration: none;
+      color: aliceblue;
+      font-weight: bold;
+      font-size: 25px;
+      margin-right: 100px;
+  }
+  #products{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-content: space-around;
+      padding-top: 30px;
+      width:100%;
+      padding-bottom: 50px;
+      
+  }
+  .product{
+   border: 2px solid black ;
+   margin: 10px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: aliceblue;
+  
+  }
+  button{
+      background-color: black;
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+  
+  }
+  button:hover{
+      background-color: red;
+  }
+  
+  footer{
+        
+      background-color: black;
+      padding: 5px;
+      color: aliceblue;
+      text-align: center;
+      font-weight: bold;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+  }

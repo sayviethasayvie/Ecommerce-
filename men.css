@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+   
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-image: url("https://png.pngtree.com/background/20230518/original/pngtree-asian-man-wearing-jacket-and-shirt-in-an-alley-picture-image_2646147.jpg");
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-align: left;
+   
+}
+.banner{
+    text-align: center;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-arround;
+    padding-top: 30px;
+    width:100%;
+    padding-bottom: 50px;
+
+
+}
+img{
+    width: 100%;
+    margin-left: 10px;
+}
+p{
+    text-align: center;
+}
+button{
+  margin-left: 120px;
+  margin-top: 5px;
+  width: 100px;
+  height: 5vh;
+  
+}
+button:hover{
+    background-color: red;
+
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-arround;
+    padding-top: 30px;
+    width:100%;
+    padding-bottom: 50px;
+
+
+}
+.product-gridz{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-arround;
+    padding-top: 30px;
+    width:100%;
+    padding-bottom: 50px;
+
+
+}
+
+
+ul{
+    list-style: none;
+   
+    text-align: center;
+   
+}
+ul li{
+    display: inline;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 100px;
+}
